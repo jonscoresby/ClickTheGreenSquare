@@ -12,8 +12,6 @@ import android.widget.TextView;
 
 public class WinScreen extends Activity {
 
-    String gameScore;
-
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,15 +31,15 @@ public class WinScreen extends Activity {
 
         if(cool2 == 0 || cool < cool2){
            bestScore.setText("BEST: " + gameScore);
-           saveScore();
+           saveScore(gameScore);
         } else bestScore.setText("BEST: " + highScore);
 
         currentScore.setText("SCORE: " + gameScore);
     }
 
-    private void saveScore(){
+    private void saveScore(String score){
         SharedPreferences.Editor sPEditor = this.getPreferences(Context.MODE_PRIVATE).edit();
-        sPEditor.putString("BEST_SCORE", gameScore);
+        sPEditor.putString("BEST_SCORE", score);
         sPEditor.apply();
     }
 

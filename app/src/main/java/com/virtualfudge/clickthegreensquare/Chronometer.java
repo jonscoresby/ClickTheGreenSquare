@@ -88,7 +88,7 @@ public class Chronometer extends androidx.appcompat.widget.AppCompatTextView {
         int milliseconds = ((int) timeElapsed % 1000 / 10);
         String text = "";
         text += df.format(seconds) + ":";
-        text += Integer.toString(milliseconds);
+        text += df.format(milliseconds);
         setText(text);
     }
 

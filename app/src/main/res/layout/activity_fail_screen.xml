@@ -17,15 +17,6 @@
         android:textColor="#ff0000"/>
 
 
-    <TextView android:text="@string/bestTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:id="@+id/best"
-        android:layout_below="@+id/you_lose"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
-
     <Button
         style="@style/MainButton"
         android:layout_width="match_parent"
