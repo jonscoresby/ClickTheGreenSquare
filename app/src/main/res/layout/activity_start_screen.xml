@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.virtualfudge.clickthegreensquare.StartScreen">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_start_header"
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/tableLayout"
+        android:layout_centerHorizontal="true" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/tableLayout">
+
+
+
+            <TableRow
+                style="@style/game_table_row"
+                >
+
+                <Button
+                    style="@style/game_button"
+                    android:id="@+id/game_button_0"
+                    android:onClick="advanceGame0"/>
+                <Button
+                    style="@style/game_button"
+                    android:id="@+id/game_button_1"
+                    android:onClick="advanceGame1" />
+                <Button
+                    style="@style/game_button"
+                    android:id="@+id/game_button_2"
+                    android:onClick="advanceGame2" />
+
+                </TableRow>
+
+        <TableRow
+            style="@style/game_table_row"
+            >
+
+            <Button
+                style="@style/game_button"
+                android:id="@+id/game_button_3"
+                android:onClick="advanceGame3" />
+            <Button
+                style="@style/game_button"
+                android:id="@+id/game_button_4"
+                android:onClick="advanceGame4" />
+            <Button
+                style="@style/game_button"
+                android:id="@+id/game_button_5"
+                android:onClick="advanceGame5" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/game_table_row"
+            >
+
+            <Button
+                style="@style/game_button"
+                android:id="@+id/game_button_6"
+                android:onClick="advanceGame6" />
+            <Button
+                style="@style/game_button"
+                android:id="@+id/game_button_7"
+                android:onClick="advanceGame7" />
+            <Button
+                style="@style/game_button"
+                android:id="@+id/game_button_8"
+                android:onClick="advanceGame8" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/app_background_color</item>
+        <item name="android:textColor">@color/PrimaryColor</item>
+    </style>
+
+    <style name="AppTitle">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/PrimaryColor</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    
+    <style name="TitlePage" parent="@style/AppTheme">
+        <item name="android:buttonStyle">@style/MainButton</item>
+    </style>
+
+    <style name="MainButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/main_button</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="game_table_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="game_button">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginRight">14dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:background">#00ff00</item>
+
+    </style>
+
+    <style name="noAnimTheme" parent="@style/AppTheme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>

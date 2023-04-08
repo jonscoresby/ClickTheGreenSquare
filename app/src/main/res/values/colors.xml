@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="PrimaryColor" type="color">#40BB19</item>
+    <item name="app_background_color" type="color">#000000</item>
+    <item name="SecondaryColor" type="color">#63E389</item>
+
+    <item name="color_number_0" type="color">#00ff00</item>
+    <item name="color_number_1" type="color">#ffffff</item>
+    <item name="color_number_2" type="color">#ff0000</item>
+    <item name="color_number_3" type="color">#0000ff</item>
+    <item name="color_number_4" type="color">#00ffff</item>
+    <item name="color_number_5" type="color">#ffff00</item>
+    <item name="color_number_6" type="color">#ff00ff</item>
+    <item name="color_number_7" type="color">#660099</item>
+    <item name="color_number_8" type="color">#ff9900</item>
+
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Click the Green Square</string>
+    <string name="action_settings">a;sld</string>
+    <string name="StartButton">Play</string>
+    <string name="title_activity_game_start">gameStart</string>
+    <string name="game_start_header">Touch the Green Tile to Start</string>
+    <string name="title_activity_fail_screen">FailScreen</string>
+    <string name="title_activity_win_screen">WinScreen</string>
+    <string name="Time">TIME:</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_start_screen">StartScreen</string>
+    <string name="title_activity_run_game">RunGame</string>
+    <string name="title_activity_game_run">GameRun</string>
+    <string name="youWin">You Win!</string>
+    <string name="bestTime">BEST:</string>
+    <string name="retry_button">Retry</string>
+    <string name="menu_button">Menu</string>
+    <string name="youLose">You Lose!</string>
+</resources>
